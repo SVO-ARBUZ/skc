@@ -1,7 +1,5 @@
 {"posts":
   [
-    {"name": "TEST","version":  "1.4.88"},
-    {"name": "TEST2","version":  "1.1.61"},
-    {"name": "TEST3","version":  "51"}
+    {"name": "бот запущен","version":  "release"}
   ]
 }

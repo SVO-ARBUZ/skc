@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.0/lib/codemirror.css">
+<script src="codemirrorjs.js"></script>
+<script src="modejs.js"></script> <!-- Подходит для HTML и других языков программирования -->
+
+<div id="code-editor"></div>
+<script>
+    CodeMirror(document.getElementById('code-editor'), {
+        mode: 'javascript', // Подстройте параметр под свой язык программирования: 'javascript', 'css' и т.д.
+        lineNumbers: true, // Включение отображения номеров строк
+        theme: 'dark' // Выбор темы оформления редактора
+    });
+</script>
